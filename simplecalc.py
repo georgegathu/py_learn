@@ -5,4 +5,4 @@ second_number = input('Second number: ')
 
 sum = float(first_number) + float(second_number)
 
-print(sum)
+print("Sum: " + str(sum))
