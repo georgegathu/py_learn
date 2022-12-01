@@ -1,4 +1,4 @@
-# Calculator If elif else Statement
+# Simple body temp Calculator using If elif else Statement
 temperature = float(input("Enter your body temperature: "))
 print("You have entered ", round(temperature, 2))
 
