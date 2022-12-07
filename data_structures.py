@@ -1,17 +1,15 @@
-#PYTHON STRING
+# PYTHON LISTS
 """
-    A string is a sequence of characters that can be a combination of 
-    letters, numbers, and special characters.
-    It can be declared by using single quotes, double quotes, or even triple quotes.
-    These quotes are not a part of a string, they define only starting and ending of the string
-    Strings are immutable, i.e., they cannot be changed.
-    Each element of the string can be accessed using indexing or slicing operations.
+        They are sequenced data types.
+        An empty list is created using list() function
+        Lists are mutable, i.e, they can be altered once declared
 """
-a = '"A"Is the first alphabet letter'
-print(a)
-b = "Be your own boss 24/7"
-print(b)
-c = '''CATS must be pased '''
-print(c)
-
-
+#Declaring a List
+S = ['Start', 22, 'Leave', 11+11]
+S.append('My G')
+print (S)
+#Delete Third element in a List
+S.pop(2)
+print(S)
+#Display the 4th element in a List
+print(S[3])
