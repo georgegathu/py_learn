@@ -1,15 +1,8 @@
-# PYTHON LISTS
+#TUPLES IN PYTHON
 """
-        They are sequenced data types.
-        An empty list is created using list() function
-        Lists are mutable, i.e, they can be altered once declared
+    Tuple - Is a sequence of immutable Python objects.
+    They are just like Lists only that tuples cannot be changed once declared.
+    They are usually faster than Lists
 """
-#Declaring a List
-S = ['Start', 22, 'Leave', 11+11]
-S.append('My G')
-print (S)
-#Delete Third element in a List
-S.pop(2)
-print(S)
-#Display the 4th element in a List
-print(S[3])
+tup = (1, 'One', 2, 'Two')
+print(tup[3])
