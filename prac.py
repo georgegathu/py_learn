@@ -1,6 +1,9 @@
-# Write a program that asks patient names and diagnosis made 
-# print out what he/she suffers from
+#TYPE CONVERSION 
 
-full_name = input("Patient name: ")
-diagnosis = input("Diagnosed with? ")
-print(full_name + " suffers from " + diagnosis)
+# Write a program that asks year of birth and 
+# print out our current age
+
+year_of_birth = input("Input Year of Birth: ")
+age = 2022 - int(year_of_birth)
+
+print(age)
