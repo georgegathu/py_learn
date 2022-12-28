@@ -1,14 +1,7 @@
-#STRINGS 
+#FORMATED STRINGS 
 
-# Write a program with multiple strings (Email format)
+model = 'Toyota Tundra'
+model_year = '2020'
+msg = f'{model} [{model_year}] is an exeptional car'
 
-course = '''
-Hi Blacks,
-
-Hope this email finds you well,
-We are pleased to inform you , you have passed your interview.
-CONGRATS!
-
-ICT DEPARTMENT
-'''
-print(course)
+print(msg)
