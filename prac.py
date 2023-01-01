@@ -1,20 +1,16 @@
-#IF STATEMENTS
+#CALCULATOR TO CALCULATE ALL THE BASIC ARITHMETICS
 
-#Write a program:
-# if good credit
-#   put down 10% 
-# otherwise 
-#   put down 20% 
-# print the down payment
+num_1 = float(input("Enter first number: "))
+opp = input("Enter operator: ")
+num_2 = float(input("Enter second number: "))
 
-property_price = 100000
-good_credit = False
-
-if good_credit:
-    down_payment = 0.1 * property_price
+if opp == "+":
+    print(num_1 + num_2)
+elif opp == "-":
+    print(num_1 - num_2)
+elif opp == "/":
+    print(num_1 / num_2)
+elif opp == "*":
+    print(num_1 * num_2)
 else:
-    down_payment = 0.2 * property_price
-print(f"Down payment: ksh{down_payment}")
-
-
-
+    print("Invalid operator")
