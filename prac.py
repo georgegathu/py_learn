@@ -1,16 +1,13 @@
-#CALCULATOR TO CALCULATE ALL THE BASIC ARITHMETICS
+# A PROGRAM TO CHECK NAME LENGTH 
+#NAME MUST HAVE ATLEAST 3 CHARACTERS 
+#NAME SHOULD NOT BE MORE THAN 50 CHARACTER
+#OTHERWISE PRINT "NAME LOOKS GOOD!"
 
-num_1 = float(input("Enter first number: "))
-opp = input("Enter operator: ")
-num_2 = float(input("Enter second number: "))
+user_name = str(input("Enter your name: "))
 
-if opp == "+":
-    print(num_1 + num_2)
-elif opp == "-":
-    print(num_1 - num_2)
-elif opp == "/":
-    print(num_1 / num_2)
-elif opp == "*":
-    print(num_1 * num_2)
+if len((user_name)) < 3:
+    print("Name is too short!")
+elif len((user_name)) > 50:
+    print("Name is too long!")
 else:
-    print("Invalid operator")
+    print("Name looks good!")
