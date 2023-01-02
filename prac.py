@@ -1,13 +1,11 @@
-# A PROGRAM TO CHECK NAME LENGTH 
-#NAME MUST HAVE ATLEAST 3 CHARACTERS 
-#NAME SHOULD NOT BE MORE THAN 50 CHARACTER
-#OTHERWISE PRINT "NAME LOOKS GOOD!"
+#Program that converts weight in KGs to Pounds and vice verser 
 
-user_name = str(input("Enter your name: "))
+weight = int(input("Input weight: "))
+weight_unit = input("(K)g or (L)bs: ")
 
-if len((user_name)) < 3:
-    print("Name is too short!")
-elif len((user_name)) > 50:
-    print("Name is too long!")
+if weight_unit.upper() == "K":
+    convert = weight // 0.45
+    print(f"You weigh {convert} pounds")
 else:
-    print("Name looks good!")
+    convert = weight * 0.45
+    print(f"You weigh  {convert} kilos")
