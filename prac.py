@@ -1,11 +1,16 @@
-#Program that converts weight in KGs to Pounds and vice verser 
+#WHILE LOOPS (Guess Number Game)
 
-weight = int(input("Input weight: "))
-weight_unit = input("(K)g or (L)bs: ")
+secret_number = 11
 
-if weight_unit.upper() == "K":
-    convert = weight // 0.45
-    print(f"You weigh {convert} pounds")
+guess_count = 0
+guess_limit = 3
+
+while guess_count < guess_limit:
+    guess = int(input("Guess a number: "))
+    guess_count +=1
+    if guess == secret_number:
+        print('Congrats, You won!')
+        break
 else:
-    convert = weight * 0.45
-    print(f"You weigh  {convert} kilos")
+    print('Sorry you failed')
+
