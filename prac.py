@@ -1,16 +1,59 @@
-#WHILE LOOPS (Guess Number Game)
+# A QUIZ GAME 
 
-secret_number = 11
+# Ask the user a bunch of quiz
+# For every correct answer reward them with a point.
 
-guess_count = 0
-guess_limit = 3
+print("Welcome to my Quiz Game")
 
-while guess_count < guess_limit:
-    guess = int(input("Guess a number: "))
-    guess_count +=1
-    if guess == secret_number:
-        print('Congrats, You won!')
-        break
+play = input("Do you want to play? ")
+
+if play.lower() != "yes":
+    quit()
+
+print("Okay, lets play :-)")
+score = 0
+
+answer = input("What does ICU stand for? ")
+if answer.lower() == "intensive care unit":
+    print("Correct!")
+    score += 1
 else:
-    print('Sorry you failed')
+    print("Incorrect!")
 
+answer = input("What is the current President of Kenya ? ")
+if answer.lower() == "william ruto":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect!")
+    
+answer = input("Who is the inventor of Linux? ")
+if answer.lower() == "linus torvalds":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect!")
+
+answer = input("What does USA stand for? ")
+if answer.lower() == "united states of america":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect!")
+
+answer = input("What is 40 + 45 equals to? ")
+if answer.lower() == "95":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect!")
+
+answer = input("What is Java Script commonly used for? ")
+if answer.lower() == "web development":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect!")
+
+print("You got " + str(score) + " questions correct!")
+print("You got " + str(score / 6 * 100) + "%.")
