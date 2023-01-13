@@ -1,10 +1,10 @@
-# Simple body temp Calculator using If elif else Statement
-temperature = float(input("Enter your body temperature: "))
-print("You have entered ", round(temperature, 2))
+# Kg Converter
+weight = int(input("Weight: "))
+unit = input('(L)bs or (K)g: ')
 
-if temperature == 36:
-    print("Normal temperature, don't panic.")
-elif temperature > 36:
-    print("You have a fever, seek medical attention!")
+if unit.upper() == "L":
+    converted = weight * 0.45
+    print(f"you are {converted} kgs")
 else:
-    print("Below normal temperature, seek medical attention!")
+    converted = weight // 0.45
+    print(f"you are {converted} pounds")
