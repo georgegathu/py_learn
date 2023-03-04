@@ -1,4 +1,4 @@
-# Program to show your computer CPU usage
+# Program to show your computer CPU & RAM usage
 import psutil
 
 while True:
