@@ -1,5 +1,6 @@
-i = 1
-while i <= 5:
-    print('*' * i)
-    i = i + 1
-print("Done")
+# Python program to illustrate
+# while loop
+count = 0
+while (count < 3):
+	count = count + 1
+	print("We shall conqure!")
