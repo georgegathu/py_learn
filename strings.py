@@ -12,3 +12,5 @@ print(course.find('n'))
 print(course.replace('for', '4'))
 
 print(course.__sizeof__())
+
+example = 
