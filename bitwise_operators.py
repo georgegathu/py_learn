@@ -8,7 +8,14 @@ They include:
     << = LEFT SHIFT
     >> = RIGHT SHIFT
 """
+# Example 1 (Using & Operator)
 x = 4
 y = 5
 
 print(x & y) # Ans: 4
+
+# Example 2 (Using | Operator)
+x = 4
+y = 5
+
+print(x | y) # Ans: 5
