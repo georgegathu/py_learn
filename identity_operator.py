@@ -26,3 +26,12 @@ print(x is y) # False
 x = 5
 y = "5"
 print(x is not y) # True
+
+#TEST:
+x = 5
+print(id(x))
+
+x = 8
+print(id(x))
+
+print(x is x ) # True
