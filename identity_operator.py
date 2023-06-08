@@ -11,3 +11,9 @@ x = 5
 y = 5
 
 print(x is y)
+
+# Example 2 (is Operator)
+x = 5
+y = 5
+
+print(x is not y)
