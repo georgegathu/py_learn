@@ -10,10 +10,19 @@ They are used to compare objects: If they are the same or not and they share sam
 x = 5
 y = 5
 
-print(x is y)
+print(x is y) # True
 
-# Example 2 (is Operator)
+# Example 2 (is not Operator)
 x = 5
 y = 5
 
-print(x is not y)
+print(x is not y) # False
+
+# Example 3:
+x = 5
+y = "5"
+print(x is y) # False
+
+x = 5
+y = "5"
+print(x is not y) # True
