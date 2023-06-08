@@ -31,3 +31,9 @@ x = 4 # 0101 (Binary)
 y = 5 # 0100 (Binary)
 
 print(~ y) # Ans: -6
+
+# Example 5 (Using << Left Shift Operator)
+x = 4 # 0101 (Binary)
+y = 5 # 0100 (Binary)
+
+print(x << y) # Ans: 128
