@@ -37,3 +37,9 @@ x = 4 # 0101 (Binary)
 y = 5 # 0100 (Binary)
 
 print(x << y) # Ans: 128
+
+# Example 6 (Using >> Right Shift Operator)
+x = 4 # 0101 (Binary)
+y = 5 # 0100 (Binary)
+
+print(x >> 2) # Ans: 1
