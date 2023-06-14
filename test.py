@@ -1,8 +1,7 @@
-# Cheeck if a number is even or odd number
+# BMI CALCULATOR
+weight = input('Enter weight in Kg: ')
+height = input('Enter height in Meter')
 
-number = int(input("Please input a number: "))
+bmi = int(weight)/float(height) ** 2
 
-if(number % 2 == 0):
-    print("This is even number")
-else:
-    print("This is odd number")
+print(int(bmi))
