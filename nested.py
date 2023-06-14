@@ -17,10 +17,13 @@
 # Example 1 (nested if else)
 height = int(input("What is your height in feet? "))
 
-if height > 1:
+if height >= 2:
     print("You can ride")
     age = int(input("What is your age? "))
     if age <= 18:
         print("Pay ksh 300")
     else:
         print("Pay ksh 600")
+else:
+    print("Can't ride")
+print("Bye bye!")
