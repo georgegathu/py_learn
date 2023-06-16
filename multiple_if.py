@@ -15,11 +15,11 @@ if height >= 2:
         print("Ticket Price is Pay 600")
 
         want_photo = input("Do you want a photo(Y/N)? ")
-        if want_photo == "Y" or want_photo == "y"
-        bill = bill + 50
+        if want_photo == "Y" or want_photo == "y":
+            bill = bill + 50
 
-        print(f"Your total bill is{bill}")
+        print(f"Your total bill is {bill} ")
 
 else:
     print("Can't ride")
-print("Bye bye!")
+print("Thank You, Enjoy your ride!")
