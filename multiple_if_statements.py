@@ -1,6 +1,6 @@
 # A program to define if a number is Positive or negative:
 def multiple_if_statements():
-    number = 10
+    number = float(input("Please input a number: "))
 
     if number > 0:
         print("The number is positive.")
